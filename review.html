@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="gap1">
+            <p style="padding: 20px; border: 1px solid #eaeaea; background-color: #7ff0b2 ;  ">Step1:Account </p>
+        </div>
+        <div class="gap2">
+            <p style="padding: 20px; border: 1px solid #eaeaea; background-color: #7ff0b2;"> Step2: Personal detail</p>
+        </div>
+        <div class="gap3">
+            <p style="padding: 20px; border: 1px solid #eaeaea; background-color: #5c4de2;">Step3: Your Review</p>
+        </div>
+    </div>
+    <fieldset class="info">
+        <legend> Your Review</legend>
+        <label>How did you hear about us?
+            <select name="review" id="review">
+                <option value="Google">Google</option>
+                <option value="Friend Circle">Friend Circle</option>
+                <option value="Adverting">Adverting</option>
+                <option value="Relative">Relative</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label>Would you visit again?
+                <input type="radio" name="yes" value="yes" checked="checked" />
+                Yes
+                <input type="radio" name="No" value="No" />
+                No
+                <input type="radio" name="May be" value="May be" />
+                May be
+                <br />
+
+
+                <label for="comments">
+                    Comments:
+                </label>
+
+                <textarea rows="4" cols="40" id="comments">
+                    </textarea>
+            </label>
+            <label><input type="file" name="user-song" /><br /></label>
+
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Sign me up for email updates
+            </label>
+            <br />
+            <br />
+            <br />
+
+            <a href="./personaldetail.html">
+            <button type="button" class="buttonsize">Back</button></a>
+
+            <button type="submit" class="buttonsize">Submit</button>
+
+    </fieldset>
+
+</html>
+
+</html>
